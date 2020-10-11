@@ -22,7 +22,7 @@ I am using Ubuntu 20.04. To install it use the following commands
 * `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
 * `sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
 * `sudo apt update`
-* `sudo apt install docker-ce docker-ce-cli containerd.io`
+* `sudo apt install docker-ce docker-ce-cli containerd.io docker-compose`
 
 Or use this command for a 1 liner (make sure to install curl first):
 * `curl https://robertalberto.com/scripts/dockerinstaller | bash`
